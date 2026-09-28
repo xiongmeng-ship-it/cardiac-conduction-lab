@@ -1,0 +1,126 @@
+{
+  "cutaway": [
+    [
+      "Aortic arch",
+      2
+    ],
+    [
+      "Ascending aorta",
+      1
+    ],
+    [
+      "Coronary sinus",
+      1
+    ],
+    [
+      "Great cardiac vein",
+      3
+    ],
+    [
+      "Inferior vena cava (thoracic part)",
+      1
+    ],
+    [
+      "Left coronary artery",
+      1
+    ],
+    [
+      "Left inferior pulmonary vein",
+      2
+    ],
+    [
+      "Left superior pulmonary vein",
+      3
+    ],
+    [
+      "Middle cardiac vein",
+      7
+    ],
+    [
+      "Pulmonary arterial tree",
+      3
+    ],
+    [
+      "Right coronary artery",
+      2
+    ],
+    [
+      "Right inferior pulmonary vein",
+      2
+    ],
+    [
+      "Right inferolateral branch of right coronary artery",
+      8
+    ],
+    [
+      "Right superior pulmonary vein",
+      1
+    ],
+    [
+      "Superior vena cava",
+      1
+    ]
+  ],
+  "exterior": [
+    [
+      "Aortic arch",
+      2
+    ],
+    [
+      "Ascending aorta",
+      1
+    ],
+    [
+      "Coronary sinus",
+      1
+    ],
+    [
+      "Great cardiac vein",
+      8
+    ],
+    [
+      "Inferior vena cava (thoracic part)",
+      1
+    ],
+    [
+      "Left coronary artery",
+      1
+    ],
+    [
+      "Left inferior pulmonary vein",
+      2
+    ],
+    [
+      "Left superior pulmonary vein",
+      3
+    ],
+    [
+      "Middle cardiac vein",
+      13
+    ],
+    [
+      "Pulmonary arterial tree",
+      3
+    ],
+    [
+      "Right coronary artery",
+      14
+    ],
+    [
+      "Right inferior pulmonary vein",
+      2
+    ],
+    [
+      "Right inferolateral branch of right coronary artery",
+      8
+    ],
+    [
+      "Right superior pulmonary vein",
+      1
+    ],
+    [
+      "Superior vena cava",
+      1
+    ]
+  ]
+}

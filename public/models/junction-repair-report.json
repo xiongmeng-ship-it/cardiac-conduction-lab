@@ -1,0 +1,14 @@
+{
+  "cutaway": {
+    "sourceStructures": 31,
+    "posteriorMovedVertices": 906,
+    "paRaTriangleContacts": 0,
+    "archHeight": 3.0430474281311035
+  },
+  "exterior": {
+    "sourceStructures": 32,
+    "posteriorMovedVertices": 453,
+    "paRaTriangleContacts": 0,
+    "archHeight": 3.0430474281311035
+  }
+}

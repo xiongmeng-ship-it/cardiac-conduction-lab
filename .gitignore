@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+playwright-report
+test-results
+
+*.tsbuildinfo
+
+# Keep earlier anatomy exports locally; publish the current complete models.
+public/models/heart-*.glb
+!public/models/heart-cutaway-v7.glb
+!public/models/heart-exterior-v7.glb
+.env
+.env.*
+!.env.example
+__pycache__/

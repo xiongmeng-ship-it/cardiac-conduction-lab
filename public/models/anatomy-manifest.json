@@ -1,0 +1,538 @@
+{
+  "source": "Z-Anatomy / BodyParts3D",
+  "license": "CC BY-SA 4.0",
+  "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  "scale": 33,
+  "center": [
+    0.023000000044703484,
+    -0.02500000037252903,
+    1.3040000200271606
+  ],
+  "objects": [
+    {
+      "name": "Anterior papillary muscle of right ventricle.001",
+      "id": "rv",
+      "verts": 774,
+      "min": [
+        -0.329,
+        -1.726,
+        -2.036
+      ],
+      "max": [
+        0.874,
+        -0.99,
+        -1.036
+      ]
+    },
+    {
+      "name": "Anterior semilunar leaflet of pulmonary valve.001",
+      "id": "pulmonary",
+      "verts": 1275,
+      "min": [
+        0.049,
+        -1.279,
+        0.184
+      ],
+      "max": [
+        0.659,
+        -0.593,
+        0.753
+      ]
+    },
+    {
+      "name": "Aortic arch.001",
+      "id": "aorta",
+      "verts": 278,
+      "min": [
+        -1.022,
+        -0.565,
+        1.694
+      ],
+      "max": [
+        0.288,
+        2.245,
+        2.65
+      ]
+    },
+    {
+      "name": "Ascending aorta.001",
+      "id": "aorta",
+      "verts": 300,
+      "min": [
+        -1.077,
+        -0.634,
+        0.132
+      ],
+      "max": [
+        0.296,
+        0.682,
+        1.965
+      ]
+    },
+    {
+      "name": "Bifurcation of pulmonary trunk.001",
+      "id": "pa",
+      "verts": 600,
+      "min": [
+        -0.582,
+        -0.363,
+        0.868
+      ],
+      "max": [
+        0.739,
+        1.116,
+        1.851
+      ]
+    },
+    {
+      "name": "Coronary sinus.001",
+      "id": "coronary",
+      "verts": 732,
+      "min": [
+        -0.916,
+        0.228,
+        -1.429
+      ],
+      "max": [
+        0.835,
+        1.413,
+        -0.652
+      ]
+    },
+    {
+      "name": "Great cardiac vein.001",
+      "id": "coronary",
+      "verts": 931,
+      "min": [
+        0.682,
+        -0.514,
+        -0.725
+      ],
+      "max": [
+        1.677,
+        1.354,
+        0.497
+      ]
+    },
+    {
+      "name": "Inferior leaflet of right atrioventricular valve.001",
+      "id": "tricuspid",
+      "verts": 4912,
+      "min": [
+        -1.385,
+        -0.79,
+        -1.728
+      ],
+      "max": [
+        -0.176,
+        0.286,
+        -0.788
+      ]
+    },
+    {
+      "name": "Inferior papillary muscle of left ventricle.001",
+      "id": "lv",
+      "verts": 782,
+      "min": [
+        0.844,
+        -0.848,
+        -1.744
+      ],
+      "max": [
+        1.816,
+        0.593,
+        -0.719
+      ]
+    },
+    {
+      "name": "Inferior papillary muscle of right ventricle.001",
+      "id": "rv",
+      "verts": 547,
+      "min": [
+        -0.496,
+        -1.309,
+        -2.074
+      ],
+      "max": [
+        0.515,
+        -0.332,
+        -1.583
+      ]
+    },
+    {
+      "name": "Inferior vena cava (thoracic part).001",
+      "id": "ivc",
+      "verts": 213,
+      "min": [
+        -1.633,
+        -0.288,
+        -2.2
+      ],
+      "max": [
+        -0.85,
+        0.726,
+        -1.344
+      ]
+    },
+    {
+      "name": "Left atrium.001",
+      "id": "la",
+      "verts": 2532,
+      "min": [
+        -1.546,
+        -0.565,
+        -1.356
+      ],
+      "max": [
+        1.405,
+        1.87,
+        1.127
+      ]
+    },
+    {
+      "name": "Left coronary artery.001",
+      "id": "coronary",
+      "verts": 300,
+      "min": [
+        -0.067,
+        -0.044,
+        0.594
+      ],
+      "max": [
+        0.439,
+        0.192,
+        0.951
+      ]
+    },
+    {
+      "name": "Left coronary leaflet.001",
+      "id": "aortic",
+      "verts": 459,
+      "min": [
+        -0.322,
+        -0.236,
+        0.214
+      ],
+      "max": [
+        0.167,
+        0.438,
+        0.677
+      ]
+    },
+    {
+      "name": "Left inferior pulmonary vein.001",
+      "id": "pv",
+      "verts": 456,
+      "min": [
+        0.453,
+        1.386,
+        -0.592
+      ],
+      "max": [
+        0.954,
+        1.725,
+        -0.134
+      ]
+    },
+    {
+      "name": "Left pulmonary artery.001",
+      "id": "pa",
+      "verts": 1020,
+      "min": [
+        -0.018,
+        0.824,
+        -1.224
+      ],
+      "max": [
+        2.206,
+        2.139,
+        1.81
+      ]
+    },
+    {
+      "name": "Left semilunar leaflet of pulmonary valve.001",
+      "id": "pulmonary",
+      "verts": 998,
+      "min": [
+        0.06,
+        -0.688,
+        0.198
+      ],
+      "max": [
+        0.647,
+        -0.187,
+        0.761
+      ]
+    },
+    {
+      "name": "Left superior pulmonary vein.001",
+      "id": "pv",
+      "verts": 468,
+      "min": [
+        0.499,
+        0.88,
+        0.247
+      ],
+      "max": [
+        1.078,
+        1.311,
+        0.652
+      ]
+    },
+    {
+      "name": "Left ventricle.001",
+      "id": "lv",
+      "verts": 32852,
+      "min": [
+        -0.678,
+        -0.525,
+        -2.22
+      ],
+      "max": [
+        1.958,
+        1.339,
+        0.739
+      ]
+    },
+    {
+      "name": "Non-coronary leaflet.001",
+      "id": "aortic",
+      "verts": 160,
+      "min": [
+        -0.722,
+        -0.139,
+        0.068
+      ],
+      "max": [
+        -0.15,
+        0.493,
+        0.611
+      ]
+    },
+    {
+      "name": "Posterior leaflet of left atrioventricular valve.001",
+      "id": "mitral",
+      "verts": 3798,
+      "min": [
+        -0.278,
+        -0.041,
+        -1.353
+      ],
+      "max": [
+        1.405,
+        1.251,
+        -0.258
+      ]
+    },
+    {
+      "name": "Pulmonary trunk.001",
+      "id": "pa",
+      "verts": 138,
+      "min": [
+        -0.358,
+        -1.26,
+        0.666
+      ],
+      "max": [
+        0.67,
+        -0.013,
+        1.752
+      ]
+    },
+    {
+      "name": "Middle cardiac vein.001",
+      "id": "coronary",
+      "verts": 4814,
+      "min": [
+        -0.691,
+        -0.33,
+        -2.21
+      ],
+      "max": [
+        0.992,
+        0.482,
+        -1.122
+      ]
+    },
+    {
+      "name": "Right coronary artery.001",
+      "id": "coronary",
+      "verts": 728,
+      "min": [
+        -1.38,
+        -0.568,
+        -1.765
+      ],
+      "max": [
+        -0.039,
+        0.974,
+        0.982
+      ]
+    },
+    {
+      "name": "Right pulmonary artery.001",
+      "id": "pa",
+      "verts": 300,
+      "min": [
+        -2.015,
+        0.437,
+        0.658
+      ],
+      "max": [
+        -0.289,
+        1.307,
+        1.576
+      ]
+    },
+    {
+      "name": "Septal papillary muscle of right ventricle.001",
+      "id": "rv",
+      "verts": 424,
+      "min": [
+        -0.3,
+        -0.733,
+        -0.883
+      ],
+      "max": [
+        0.365,
+        -0.208,
+        0.034
+      ]
+    },
+    {
+      "name": "Right atrium.001",
+      "id": "ra",
+      "verts": 36840,
+      "min": [
+        -1.973,
+        -0.556,
+        -1.91
+      ],
+      "max": [
+        -0.522,
+        1.08,
+        1.346
+      ]
+    },
+    {
+      "name": "Right coronary leaflet.001",
+      "id": "aortic",
+      "verts": 461,
+      "min": [
+        -0.679,
+        -0.438,
+        0.089
+      ],
+      "max": [
+        -0.041,
+        0.023,
+        0.639
+      ]
+    },
+    {
+      "name": "Right inferior pulmonary vein.001",
+      "id": "pv",
+      "verts": 312,
+      "min": [
+        -1.59,
+        1.386,
+        -0.559
+      ],
+      "max": [
+        -0.814,
+        1.821,
+        -0.076
+      ]
+    },
+    {
+      "name": "Right inferolateral branch of right coronary artery.001",
+      "id": "coronary",
+      "verts": 8406,
+      "min": [
+        -0.067,
+        -0.342,
+        -2.181
+      ],
+      "max": [
+        1.735,
+        1.145,
+        -1.514
+      ]
+    },
+    {
+      "name": "Right semilunar leaflet of pulmonary valve.001",
+      "id": "pulmonary",
+      "verts": 1372,
+      "min": [
+        -0.441,
+        -1.187,
+        0.296
+      ],
+      "max": [
+        0.202,
+        -0.366,
+        0.883
+      ]
+    },
+    {
+      "name": "Right superior pulmonary vein.001",
+      "id": "pv",
+      "verts": 876,
+      "min": [
+        -2.249,
+        0.681,
+        0.029
+      ],
+      "max": [
+        -1.184,
+        1.367,
+        1.195
+      ]
+    },
+    {
+      "name": "Right ventricle.001",
+      "id": "rv",
+      "verts": 8656,
+      "min": [
+        -1.423,
+        -0.561,
+        -2.057
+      ],
+      "max": [
+        0.965,
+        0.357,
+        0.886
+      ]
+    },
+    {
+      "name": "Septal leaflet of right atrioventricular valve.001",
+      "id": "tricuspid",
+      "verts": 4506,
+      "min": [
+        -0.96,
+        -0.534,
+        -0.894
+      ],
+      "max": [
+        0.268,
+        0.291,
+        -0.097
+      ]
+    },
+    {
+      "name": "Superior vena cava.001",
+      "id": "svc",
+      "verts": 156,
+      "min": [
+        -1.709,
+        -0.251,
+        1.188
+      ],
+      "max": [
+        -0.887,
+        0.641,
+        2.432
+      ]
+    }
+  ]
+}
