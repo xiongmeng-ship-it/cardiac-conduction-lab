@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import { Activity, ArrowDownRight, ArrowRight, BookOpen, Check, ChevronDown, ChevronRight, CircleHelp, HeartPulse, Layers3, Maximize, MousePointer2, Pause, Play, RotateCcw, RotateCw, ScanLine, SkipBack, SkipForward, SlidersHorizontal, X, Zap } from 'lucide-react';
+import { Activity, ArrowDownRight, ArrowRight, BookOpen, Check, ChevronDown, ChevronRight, CircleHelp, HeartPulse, Layers3, Maximize, Moon, MousePointer2, Pause, Play, RotateCcw, RotateCw, ScanLine, SkipBack, SkipForward, SlidersHorizontal, Sun, X, Zap } from 'lucide-react';
 import { structures, groups } from './anatomy';
 import { phaseAt, phases, timing, motionAt } from './simulation';
 import { useSimulation } from './useSimulation';
@@ -11,15 +11,21 @@ function App(){
   const [group,setGroup]=useState<(typeof groups)[number]>('Conduction system');
   const [modal,setModal]=useState<'guide'|'about'|null>(null);
   const [fullscreen,setFullscreen]=useState(false);
+  const [theme,setTheme]=useState<'dark'|'light'>(()=>{
+    if(typeof window==='undefined')return 'dark';
+    const saved=window.localStorage.getItem('cardiac-lab-theme');
+    return saved==='light'?'light':'dark';
+  });
   const anatomy=useRef<HTMLDivElement>(null),dialog=useRef<HTMLDialogElement>(null),previousFocus=useRef<HTMLElement|null>(null);
   const current=structures.find(s=>s.id===selected) ?? structures[0];
   const select=(id:string)=>{const s=structures.find(v=>v.id===id);if(s){setSelected(id);setGroup(s.group);}};
   useEffect(()=>{if(modal){previousFocus.current=document.activeElement as HTMLElement;dialog.current?.showModal();}else {dialog.current?.close();previousFocus.current?.focus();}},[modal]);
   useEffect(()=>{const f=()=>setFullscreen(!!document.fullscreenElement);document.addEventListener('fullscreenchange',f);return()=>document.removeEventListener('fullscreenchange',f);},[]);
+  useEffect(()=>{document.documentElement.dataset.theme=theme;window.localStorage.setItem('cardiac-lab-theme',theme);},[theme]);
   const toggleFullscreen=()=>{if(document.fullscreenEnabled){if(document.fullscreenElement)void document.exitFullscreen();else void anatomy.current?.requestFullscreen().catch(()=>setFullscreen(f=>!f));}else setFullscreen(f=>!f);};
   const motion=motionAt(sim.progress,sim.bpm);
   return <>
-    <header className="site-header"><a href="#" className="brand" aria-label="Cardiac Lab home"><span className="brand-mark"><Activity size={23}/></span>cardiac<span className="brand-light">lab</span><span className="brand-divider"/><span className="brand-subtitle">ANATOMY IN MOTION</span></a><nav aria-label="Main navigation"><a href="#explore" className="nav-active">Explore the heart</a><button onClick={()=>setModal('guide')}>Learning guide <BookOpen size={14}/></button><button className="about-button" onClick={()=>setModal('about')}>About this lab <ArrowDownRight size={15}/></button></nav></header>
+    <header className="site-header"><a href="#" className="brand" aria-label="Cardiac Lab home"><span className="brand-mark"><Activity size={23}/></span>cardiac<span className="brand-light">lab</span><span className="brand-divider"/><span className="brand-subtitle">ANATOMY IN MOTION</span></a><nav aria-label="Main navigation"><a href="#explore" className="nav-active">Explore the heart</a><button onClick={()=>setModal('guide')}>Learning guide <BookOpen size={14}/></button><button className="about-button" onClick={()=>setModal('about')}>About this lab <ArrowDownRight size={15}/></button><button className="theme-toggle" onClick={()=>setTheme(v=>v==='dark'?'light':'dark')} aria-label={`Switch to ${theme==='dark'?'light':'dark'} theme`} title={`Switch to ${theme==='dark'?'light':'dark'} theme`}>{theme==='dark'?<Sun size={15}/>:<Moon size={15}/>}<span>{theme==='dark'?'Light':'Dark'}</span></button></nav></header>
     <main id="explore">
       <section className="intro"><div><div className="eyebrow"><span/> THE RHYTHM BEHIND EVERY BEAT</div><h1>Follow the <em>impulse.</em></h1><p>Explore cardiac electrical conduction. See how every signal becomes a heartbeat.</p></div><div className="intro-note"><span className="note-icon"><Layers3 size={21}/></span><div>One heart. One connected story.<small>3D anatomy meets real-time ECG.</small></div></div></section>
       <div className="lab-grid">
